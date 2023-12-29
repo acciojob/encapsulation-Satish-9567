@@ -2,8 +2,8 @@ package com.driver;
 
 public class Main {
   public static void main(String[] args) {
-        RWOnly RWOnly=new RWOnly();
-        RWOnly.writeOnly("you might seen some error");
-        RWOnly.readOnly();
+        RWOnly rw=new RWOnly();
+        rw.setName("Prateek");
+        System.out.println(rw.getName());
     }
 }
