@@ -5,7 +5,7 @@ public class RWOnly {
     public void writeOnly(String name){
         this.name=name;
     }
-    public void readOnly(){
+    public String readOnly(){
         return name;
     }
 }
