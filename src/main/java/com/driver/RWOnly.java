@@ -6,6 +6,6 @@ public class RWOnly {
         this.name=name;
     }
     public void readOnly(){
-        System.out.println(this.name);
+        return name;
     }
 }
