@@ -4,6 +4,6 @@ public class Main {
   public static void main(String[] args) {
         RWOnly rw=new RWOnly();
         rw.writeOnly("Satish");
-        System.out.readOnly(rw.getName());
+        System.out.print(rw.readOnly());
     }
 }
